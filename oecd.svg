@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#2d81c1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" preserveAspectRatio="xMidYMid meet">
+  <!-- OECD Globe -->
+  <defs>
+    <radialGradient id="globeGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#0056b3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Stylized Globe -->
+  <circle cx="25" cy="40" r="22" fill="url(#globeGrad)" />
+  <!-- Map Silhouettes (Simplified) -->
+  <path d="M 12 35 q 5 -5 10 0 q 5 5 8 -2 q 3 -7 5 5 q 2 10 -5 12 q -7 2 -18 -15 Z" fill="#ffffff" fill-opacity="0.3" />
+  <path d="M 35 45 q 3 -3 8 2 q 2 5 -2 8 q -5 2 -6 -10 Z" fill="#ffffff" fill-opacity="0.3" />
+
+  <!-- Double Arrows (Iconic) -->
+  <!-- Top Arrows (Green) -->
+  <path d="M 55 25 L 65 25 L 75 40 L 65 55 L 55 55 L 65 40 Z" fill="#82BC00" />
+  <path d="M 68 25 L 78 25 L 88 40 L 78 55 L 68 55 L 78 40 Z" fill="#82BC00" />
+  
+  <!-- Bottom Arrows (Gray Overlay / Contrast) -->
+  <path d="M 55 45 L 65 45 L 75 60 L 65 75 L 55 75 L 65 60 Z" fill="#4D4D4D" />
+  <path d="M 68 45 L 78 45 L 88 60 L 78 75 L 68 75 L 78 60 Z" fill="#4D4D4D" />
+</svg>
